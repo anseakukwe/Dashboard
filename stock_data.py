@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 # Step 1. Launch the application
 app = dash.Dash()
 # Step 2. Import the dataset
-#filepath = 'https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv'
+filepath = 'https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv'
 st = pd.read_csv('stock_data.csv')
 
 # dropdown options
