@@ -19,7 +19,7 @@ opts = [{'label': i, 'value': i} for i in features]
 st['Date'] = pd.to_datetime(st.Date)
 dates = ['2015-02-17', '2015-05-17', '2015-08-17', '2015-11-17',
          '2016-02-17', '2016-05-17', '2016-08-17', '2016-11-17', '2017-02-17']
-
+##test
 # Step 3. Create a plotly figure
 trace_1 = go.Scatter(x=st.Date, y=st['AAPL.High'],
                      name='AAPL HIGH',
